@@ -17,6 +17,9 @@ public void empId(float sal) {
 public void empId(boolean ms) {
 	System.out.println("Your Marriage Status is: "+ms);
 }
+public void empId(long mbl) {
+	System.out.println("Your Mobile Num is: "+mbl);
+}
 public static void main(String[] args) {
 	EmployeeDetails e=new EmployeeDetails();
 	e.empId("Prem Kannan");
